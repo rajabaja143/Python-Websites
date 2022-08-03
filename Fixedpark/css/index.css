@@ -1,0 +1,45 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+body{background-color: rgb(4, 7, 28);}
+.submit{
+  border: none;
+  outline: none;
+  padding: 10px 30px;
+  cursor: pointer;
+  background: linear-gradient(to right,#FB8289,#D12FC9);
+  border-radius: 10px;
+}
+#top {
+  width: 40px;
+  height: 40px;
+  background-color:#D12FC9;
+  border-radius: 50%;
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  text-align: center;
+  line-height: 40px;
+  color: white;
+  animation: bounce 1.5s ease infinite;
+}
+/* scrollbar section start */
+::-webkit-scrollbar{
+  width: 15px;
+}
+::-webkit-scrollbar-thumb{
+  width: 5px;
+  background-color:#D12FC9;
+  border-radius: 5px;
+  transition: .5s;
+}
+::-webkit-scrollbar-thumb:hover{
+  background-color: dimgray;
+}
+::-webkit-scrollbar-track{
+  background-color: rgb(241, 237, 237);
+}
+/* scrollbar section end */
+@media (max-width:1500px){
+  #bib{
+    width: 200px;
+  }
+}
