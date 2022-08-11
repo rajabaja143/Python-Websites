@@ -1,2 +1,2 @@
-# Python-Websites
-All my python projects in this repo
+# HTMl Projects
+All my HTMl Projects in this repository
